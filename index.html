@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Form Validator</h1>
+        <h3 id="message"></h3>
+        <form action="" id="form">
+            <div class="form-group">
+                <label for="name">Full Name</label>
+                <input id="name" type="text" name="name" placeholder="Full Name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input id="email" type="email" name="email"placeholder = "email@example.com" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input id="phone" type="tel" name="phone" placeholder="11111-111111" required >
+            </div>
+            <div class="form-group">
+                <label for="website">Website URL</label>
+                <input id="website" type="url" name="website" placeholder="https://www.google.com/" required>
+            </div>
+            <div class="form-group">
+                <label for="password1">Password</label>
+                <input id="password1" type="password" name="password" placeholder="Create Password (Min. 8 Characters)" required>
+            </div>
+            <div class="form-group">
+                <label for="password2">Confirm Password</label>
+                <input id="password2" type="password" name="confirmPassword" placeholder="Confirm Password" required>
+            </div>
+
+            <button type="submit">Register</button>
+            
+        </form>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+</html>
