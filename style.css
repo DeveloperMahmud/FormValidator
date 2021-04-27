@@ -99,3 +99,10 @@ button:focus {
   font-weight: bold;
   padding-bottom: 10px;
 }
+
+input:valid{
+  border: 1px solid green;
+}
+input:invalid{
+  border: 1px solid red;
+}
