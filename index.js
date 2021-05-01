@@ -8,7 +8,7 @@ let passMatch = false;
 
 function validateForm(){
     isValid = form.checkValidity();
-    console.log(isValid);
+    // console.log(isValid);
 
     if(!isValid){
         message.textContent = 'Please Fill out all fields'
@@ -34,7 +34,7 @@ function validateForm(){
     };
 };
 
-console.log(passMatch)
+// console.log(passMatch)
 form.addEventListener('submit', (e) => {
     e.preventDefault();
     validateForm();
@@ -50,9 +50,6 @@ form.addEventListener('submit', (e) => {
         };
         console.log(user);
     }
-
-
-
 
 });
 
